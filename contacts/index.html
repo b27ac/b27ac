@@ -11,6 +11,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght;400;900&display=swap" rel="stylesheet">
 
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
     <link href="../styles.css" rel="stylesheet">
     <script src="../script.js" type="text/javascript"></script>
 </head>
@@ -26,53 +28,77 @@
             </ul>
         </nav>
 
-        <div class="small_cont">
-            <h2
-                style="text-align: left; width: 40%; margin-top: 7%; margin-left: 25%; margin-right: 25%; font-weight: bold;">
-                Contacts:
-            </h2>
-            <br>
-            <ul>
-                <li>Chloe Eunice F. Lapuz
-                    <br>B2027 ORC Head
-                    <br>b2027celapuz@pshs.edu.ph
-                </li>
+        <br><br>
 
+        <div class="big_cont">
+            <div class="small_cont">
+                <h2 class="contacts_title">Contacts</h2>
+                <ul>
+                    <li>Chloe Eunice F. Lapuz
+                        <br>B2027 ORC Head
+                        <br>b2027celapuz@pshs.edu.ph
+                    </li>
+
+                    <br>
+
+                    <li>Clarice Ilonah D. Chavez
+                        <br>B2027 ORC Head ORC Head
+                        <br>b2027cichavez@pshs.edu.ph
+                    </li>
+
+                    <br>
+
+                    <li>Ma. Shanel Francesca C. Bosi
+                        <br>B2027 ORC Head ORC Secretary
+                        <br>b2027msfbosi@pshs.edu.ph
+                    </li>
+
+                    <br>
+
+                    <li>Chael Matthew V. Sze
+                        <br>B2027 ORC Head ORC External PRO
+                        <br>b2027cmsze@pshs.edu.ph
+                    </li>
+
+                    <br>
+
+                    <li>Yakov Mathias A. Apura
+                        <br>B2027 ORC Head ORC Internal PRO
+                        <br>b2027ymapura@pshs.edu.ph
+                    </li>
+
+                    <br>
+
+                    <li>Troy Dylan T. Serapio
+                        <br>B2027 ORC Head ORC CTO
+                        <br>b2027tdserapio@pshs.edu.ph
+                    </li>
+
+                    <br>
+
+                    <li>ORC Email
+                        <br>B2027 ORC
+                        <br>b2027acadcomm@gmail.com
+                    </li>
+                </ul>
+            </div>
+            <div class="small_cont">
+                <h2 class="send_title">Send an Email!</h2>
                 <br>
-
-                <li>Clarice Ilonah D. Chavez
-                    <br>B2027 ORC Head ORC Head
-                    <br>b2027cichavez@pshs.edu.ph
-                </li>
-
+                <div class="prompt_inp">
+                    <h3>To (email): </h3>
+                    <input id="" type="email" style="width: 85%;" required>
+                </div>
+                <div class="prompt_inp">
+                    <h3>From (your name): </h3>
+                    <input id="" type="email" style="width: 85%;" required>
+                </div>
                 <br>
-
-                <li>Ma. Shanel Francesca C. Bosi
-                    <br>B2027 ORC Head ORC Secretary
-                    <br>b2027msfbosi@pshs.edu.ph
-                </li>
-
+                <h3 style="text-align: left; width: 100%;">Content:</h3>
+                <textarea id="" class="text_body" required></textarea>
                 <br>
-
-                <li>Chael Matthew V. Sze
-                    <br>B2027 ORC Head ORC External PRO
-                    <br>b2027cmsze@pshs.edu.ph
-                </li>
-
-                <br>
-
-                <li>Yakov Mathias A. Apura
-                    <br>B2027 ORC Head ORC Internal PRO
-                    <br>b2027ymapura@pshs.edu.ph
-                </li>
-
-                <br>
-
-                <li>Troy Dylan T. Serapio
-                    <br>B2027 ORC Head ORC CTO
-                    <br>b2027tdserapio@pshs.edu.ph
-                </li>
-            </ul>
+                <button class="send_button" onclick="send_email()">Send</button>
+            </div>
         </div>
 
     </div>
