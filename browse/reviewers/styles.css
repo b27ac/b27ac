@@ -1,0 +1,13 @@
+.reviewer_cont {
+    display: flex;
+    justify-content: space-between;
+    height: 80vh;
+    width: 100%;
+}
+
+.iframe_cont {
+    display: flex;
+    width: 80%;
+    height: auto;
+    
+}
